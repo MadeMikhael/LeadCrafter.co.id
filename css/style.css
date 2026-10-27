@@ -3,6 +3,7 @@
 
 :root {
     --primary: #0d6efd;
+    --secondary: #158F95;
     --dark: #21252f;
     --body: #888;
     --white: #ffffff;
@@ -29,10 +30,53 @@ section {
     overflow: hidden;
     padding-top: 80px;
     padding-bottom: 80px;
+    scroll-margin-top: 75px; 
+}
+
+#Home {
+    padding-top: 140px; /* atur sesuai tinggi navbar kamu */
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    z-index: 9999;
 }
 
 .nav-link {
     font-weight: 700;
+}
+
+/* Keadaan awal (paling atas / belum di-scroll) */
+.navbar-scroll-effect {
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+/* Keadaan setelah di-scroll (ditambah class .scrolled via JS) */
+.navbar-scroll-effect.scrolled {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Bayangan halus */
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
 }
 
 .home__img {
@@ -77,7 +121,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     color: var(--white);
     font-size: 32px;
     border-radius: 100px;
@@ -98,7 +142,7 @@ section {
     position: absolute;
     top: -100%;
     left: 0;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     z-index: -1;
     opacity: 0;
     transition: all 0.4s ease;
@@ -107,7 +151,7 @@ section {
 
 .service:hover .iconbox {
     background-color: var(--white);
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 .service:hover h3,
@@ -176,12 +220,12 @@ section {
 
 .icon__hover:hover {
     background-color: var(--white);
-    color: var(--primary);
+    color: var(--secondary);
     transition: all 0.5s ease;
 }
 
 a:hover {
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 a {
@@ -190,10 +234,16 @@ a {
 }
 
 .icon__hover {
-    background-color: var(--primary);
+    background-color: var(--secondary);
     color: var(--white);
 }
 
 li a {
     color: #fff;
+}
+
+.portfolio__img {
+    width: 100%;
+    height: 220px; /* Menyamakan tinggi semua gambar */
+    object-fit: cover; /* Potong gambar otomatis tanpa merusak proporsi */
 }
