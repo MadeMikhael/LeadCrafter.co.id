@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Details & Ordering - LeadCrafter</title>
+    <link rel="icon" type="image/ico" href="img/logo2.png" />
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm p-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Untitled-1.png" width="180" alt="logo LeadCrafter">
+            </a>
+            <a class="btn btn-secondary btn-sm rounded-pill px-3" href="index.html#Pricing">
+                <i class="bi bi-arrow-left me-1"></i> Back to Home
+            </a>
+        </div>
+    </nav>
+
+    <!-- Page Title -->
+    <section class="py-5 pb-0 mt-5 bg-light">
+        <div class="container py-4 text-center">
+            <h6 class="text-secondary fw-bold">PRICING DETAILS</h6>
+            <h1 class="fw-bold">Package Breakdown & Features</h1>
+            <p class="text-muted col-md-6 mx-auto">
+                Review the detailed specifications, timelines, and deliverables for each of our web development packages.
+            </p>
+        </div>
+    </section>
+
+    <!-- Detailed Plan Breakdown -->
+    <section class="py-5">
+        <div class="container">
+
+            <!-- 1. STARTER PLAN -->
+            <div id="starter" class="card shadow-sm border-0 mb-5 overflow-hidden">
+                <div class="card-header bg-white p-4 border-bottom">
+                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                        <div>
+                            <span class="badge bg-light text-secondary border border-secondary mb-2">Basic Tier</span>
+                            <h3 class="fw-bold mb-0">Starter Package</h3>
+                            <p class="text-muted mb-0 small">Perfect for single-page promotions and small business landing pages.</p>
+                        </div>
+                        <div class="text-lg-end mt-3 mt-lg-0">
+                            <h2 class="fw-bold text-dark mb-0">Rp 1,500,000</h2>
+                            <span class="text-muted small">One-time payment</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <h5 class="fw-bold text-secondary mb-3"><i class="bi bi-check2-square me-2"></i>What's Included</h5>
+                            <ul class="list-unstyled">
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>1-Page Landing Website:</strong> Modern & responsive design.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Mobile Friendly:</strong> Optimized for smartphones & tablets.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Contact & WhatsApp Integration:</strong> Direct click-to-chat.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Basic SEO:</strong> Meta tags & search engine indexing setup.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Free Domain & Hosting Setup:</strong> Guidance or setup included.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 border-start-md">
+                            <h5 class="fw-bold text-secondary mb-3"><i class="bi bi-clock-history me-2"></i>Project Details</h5>
+                            <p class="mb-2"><strong>Estimated Timeline:</strong> 3 – 5 Business Days</p>
+                            <p class="mb-2"><strong>Revisions:</strong> 2 Rounds of design revisions</p>
+                            <p class="mb-3"><strong>Support:</strong> 1 Month free bug fixing & maintenance</p>
+                            
+                            <a href="#orderForm" onclick="selectPackage('Starter Package - Rp 1,500,000')" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                Order Starter Plan <i class="bi bi-arrow-down-short ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. BUSINESS PLAN (HIGHLIGHTED) -->
+            <div id="business" class="card shadow border-2 border-secondary mb-5 overflow-hidden">
+                <div class="card-header bg-secondary text-white p-4">
+                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                        <div>
+                            <span class="badge bg-white text-secondary fw-bold mb-2">Most Popular Choice</span>
+                            <h3 class="fw-bold mb-0 text-white">Business Package</h3>
+                            <p class="text-white-50 mb-0 small">Best choice for growing companies, agencies, and multi-page websites.</p>
+                        </div>
+                        <div class="text-lg-end mt-3 mt-lg-0">
+                            <h2 class="fw-bold mb-0 text-white">Rp 3,500,000</h2>
+                            <span class="text-white-50 small">One-time payment</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body p-4 bg-white">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <h5 class="fw-bold text-secondary mb-3"><i class="bi bi-check2-square me-2"></i>What's Included</h5>
+                            <ul class="list-unstyled">
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Up to 5 Pages:</strong> Home, About, Services, Portfolio, Contact.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Custom UI/UX Layout:</strong> Tailored to your brand identity.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Content Management System (CMS):</strong> Easy page updates.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Speed & Security Optimization:</strong> Fast loading & SSL setup.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Google Analytics & Maps:</strong> Traffic tracking & location embed.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="fw-bold text-secondary mb-3"><i class="bi bi-clock-history me-2"></i>Project Details</h5>
+                            <p class="mb-2"><strong>Estimated Timeline:</strong> 7 – 10 Business Days</p>
+                            <p class="mb-2"><strong>Revisions:</strong> 4 Rounds of design revisions</p>
+                            <p class="mb-3"><strong>Support:</strong> 3 Months free maintenance & assistance</p>
+                            
+                            <a href="#orderForm" onclick="selectPackage('Business Package - Rp 3,500,000')" class="btn btn-secondary rounded-pill px-4 fw-bold">
+                                Order Business Plan <i class="bi bi-arrow-down-short ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. CUSTOM PLATFORM PLAN -->
+            <div id="custom" class="card shadow-sm border-0 mb-5 overflow-hidden">
+                <div class="card-header bg-white p-4 border-bottom">
+                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                        <div>
+                            <span class="badge bg-light text-secondary border border-secondary mb-2">Enterprise & Web Apps</span>
+                            <h3 class="fw-bold mb-0">Custom Platform Package</h3>
+                            <p class="text-muted mb-0 small">Designed for web applications, custom databases, and operational dashboards.</p>
+                        </div>
+                        <div class="text-lg-end mt-3 mt-lg-0">
+                            <h2 class="fw-bold text-dark mb-0">Rp 7,500,000+</h2>
+                            <span class="text-muted small">Starting price</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <h5 class="fw-bold text-secondary mb-3"><i class="bi bi-check2-square me-2"></i>What's Included</h5>
+                            <ul class="list-unstyled">
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Custom Web Application:</strong> Tailored logic & database schema.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Admin Dashboard:</strong> Manage users, content, and system data.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>API & Third-party Integrations:</strong> Payment gateways, CRM, etc.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>High Performance Architecture:</strong> Scalable & secure setup.</li>
+                                <li class="py-1"><i class="bi bi-check-lg text-secondary me-2"></i> <strong>Source Code Ownership:</strong> Full rights to the custom code.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="fw-bold text-secondary mb-3"><i class="bi bi-clock-history me-2"></i>Project Details</h5>
+                            <p class="mb-2"><strong>Estimated Timeline:</strong> 14 – 21 Business Days</p>
+                            <p class="mb-2"><strong>Revisions:</strong> Unlimited during development phases</p>
+                            <p class="mb-3"><strong>Support:</strong> 6 Months priority support & updates</p>
+                            
+                            <a href="#orderForm" onclick="selectPackage('Custom Platform Package - Rp 7,500,000+')" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                Order Custom Plan <i class="bi bi-arrow-down-short ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ORDER FORM SECTION -->
+            <div id="orderForm" class="card shadow-sm border-0 bg-light p-4 p-md-5 mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center mb-4">
+                        <h6 class="text-secondary fw-bold">GET STARTED NOW</h6>
+                        <h2 class="fw-bold">Ready to Order Your Package?</h2>
+                        <p class="text-muted">Fill out the form below and we will contact you immediately to discuss your project requirements.</p>
+                    </div>
+
+                    <form class="col-lg-8 needs-validation" novalidate id="planOrderForm">
+                        <div class="mb-3">
+                            <label for="selectedPackage" class="form-label text-muted small fw-semibold">Selected Package</label>
+                            <select class="form-select bg-white" id="selectedPackage" required>
+                                <option value="" disabled selected>Select a package...</option>
+                                <option value="Starter Package - Rp 1,500,000">Starter Package (Rp 1,500,000)</option>
+                                <option value="Business Package - Rp 3,500,000">Business Package (Rp 3,500,000)</option>
+                                <option value="Custom Platform Package - Rp 7,500,000+">Custom Platform Package (Rp 7,500,000+)</option>
+                            </select>
+                        </div>
+
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="clientName" class="form-label text-muted small fw-semibold">Your Name</label>
+                                <input type="text" class="form-control bg-white" id="clientName" placeholder="Mikhael Gana" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="clientPhone" class="form-label text-muted small fw-semibold">WhatsApp Number</label>
+                                <input type="tel" class="form-control bg-white" id="clientPhone" placeholder="081234567890" required>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="clientEmail" class="form-label text-muted small fw-semibold">Email Address</label>
+                                <input type="email" class="form-control bg-white" id="clientEmail" placeholder="name@company.com" required>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="projectNotes" class="form-label text-muted small fw-semibold">Project Notes / Requirements (Optional)</label>
+                                <textarea class="form-control bg-white" id="projectNotes" rows="3" placeholder="Tell us briefly about your business or specific features you need..."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-secondary py-3 rounded-pill fw-bold">
+                                Submit Order Inquiry <i class="bi bi-send-fill ms-2"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-white border-top text-center text-muted small">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 LeadCrafter Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Script Auto Select & Form Validation -->
+    <!-- <script>
+        function selectPackage(packageName) {
+            const selectElement = document.getElementById('selectedPackage');
+            selectElement.value = packageName;
+        }
+
+        // Auto select berdasarkan hash URL (misal: pricing-detail.html#business)
+        window.addEventListener('DOMContentLoaded', () => {
+            const hash = window.location.hash;
+            if (hash === '#starter') {
+                selectPackage('Starter Package - Rp 1,500,000');
+            } else if (hash === '#business') {
+                selectPackage('Business Package - Rp 3,500,000');
+            } else if (hash === '#custom') {
+                selectPackage('Custom Platform Package - Rp 7,500,000+');
+            }
+        });
+
+        // Validasi dan Submit Form
+        (function () {
+            'use strict'
+            var forms = document.querySelectorAll('.needs-validation')
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    } else {
+                        event.preventDefault()
+                        const pkg = document.getElementById('selectedPackage').value;
+                        const name = document.getElementById('clientName').value;
+                        alert('Thank you ' + name + '! Your inquiry for ' + pkg + ' has been submitted. We will contact you shortly.');
+                        form.reset();
+                        form.classList.remove('was-validated');
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script> -->
+</body>
+</html> 

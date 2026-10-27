@@ -103,6 +103,10 @@ section {
     z-index: -1;
 }
 
+.card{
+    scroll-margin-top: 85px; /* atur sesuai tinggi navbar kamu */
+}
+
 .card-effect {
     box-shadow: var(--box-shadow);
     background-color: var(--white);
