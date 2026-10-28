@@ -224,47 +224,7 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     
-    <!-- Script Auto Select & Form Validation -->
-    <!-- <script>
-        function selectPackage(packageName) {
-            const selectElement = document.getElementById('selectedPackage');
-            selectElement.value = packageName;
-        }
-
-        // Auto select berdasarkan hash URL (misal: pricing-detail.html#business)
-        window.addEventListener('DOMContentLoaded', () => {
-            const hash = window.location.hash;
-            if (hash === '#starter') {
-                selectPackage('Starter Package - Rp 1,500,000');
-            } else if (hash === '#business') {
-                selectPackage('Business Package - Rp 3,500,000');
-            } else if (hash === '#custom') {
-                selectPackage('Custom Platform Package - Rp 7,500,000+');
-            }
-        });
-
-        // Validasi dan Submit Form
-        (function () {
-            'use strict'
-            var forms = document.querySelectorAll('.needs-validation')
-            Array.prototype.slice.call(forms).forEach(function (form) {
-                form.addEventListener('submit', function (event) {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    } else {
-                        event.preventDefault()
-                        const pkg = document.getElementById('selectedPackage').value;
-                        const name = document.getElementById('clientName').value;
-                        alert('Thank you ' + name + '! Your inquiry for ' + pkg + ' has been submitted. We will contact you shortly.');
-                        form.reset();
-                        form.classList.remove('was-validated');
-                    }
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        })()
-    </script> -->
 </body>
 </html> 
